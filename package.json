@@ -1,0 +1,11 @@
+{
+  "name": "json-parse-bench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "bench": "node ./ && for each in ./build/*.js ; do node $each ; done"
+  },
+  "author": "",
+  "license": "ISC"
+}
